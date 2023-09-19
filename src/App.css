@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(31, 31, 139);
+}
+.item-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  width: 60vw;
+  height: auto;
+  max-height: 60vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}

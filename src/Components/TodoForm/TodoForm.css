@@ -1,0 +1,22 @@
+.form-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.form-input{
+    font-size: 125%;
+    height: 50px;
+    min-width: 300px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.form-input:focus{
+    outline: none;
+}
+.form-add{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+}
